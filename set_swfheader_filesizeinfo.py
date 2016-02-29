@@ -5,8 +5,8 @@ import struct
 
 def show_err(msg,exit_code):
     print msg
-    print "# overwrite the header of filesize in swf"
-    print "[usage] " + sys.argv[0] + " <swf_file>  "  + " <filesize>"
+    print "# overwrite the header of filesize info in swf"
+    print "[usage] " + sys.argv[0] + " <swf_file>  "  + " <filesizeinfo>"
     exit(exit_code)
 
 if len(sys.argv) != 3:
